@@ -22,7 +22,8 @@ This method is designed with Cloudflare CDN in mind (CloudFront is also supporte
 ### Downloading the Bug Scanner on Termux (Android)
 
 ```bash
-wget -O bugscanner https://github.com/dharak36/xray-onering/blob/main/bugscanner.linux.arm64.64bit
+wget -O bugscanner https://github.com/dharak36/xray-onering/raw/refs/heads/main/bugscanner.linux.arm64.64bit
+chmod 777 bugscanner
 ```
 
 Then create a file anywhere you like—here we’ll use `/sdcard/host.txt`. Add the Cloudflare bugs you want to test, one per line. Example:
