@@ -66,3 +66,9 @@ host: www.yourdomain.com
 sni/servername: onering:www.yourdomain.com:support.zoom.us
 type: websocket
 ```
+
+Example configuration V2rayNG:
+
+```bash
+vmess://eyJhZGQiOiJzdXBwb3J0Lnpvb20udXMiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IjEwLmxvd2gubmV0IiwiaWQiOiIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvaGVsbG8iLCJwb3J0IjoiNDQzIiwicHMiOiIxMC5sb3doLm5ldCIsInNjeSI6ImF1dG8iLCJzbmkiOiJvbmVyaW5nOjEwLmxvd2gubmV0OnN1cHBvcnQuem9vbS51cyIsInRscyI6InRscyIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
+```
