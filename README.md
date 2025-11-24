@@ -38,13 +38,14 @@ ads.ruangguru.com
 Use the following parameters:
 
 * **host**: location of the host file (e.g., `/sdcard/host.txt`)
+* **result**: location of the result (e.g., `/sdcard/result.txt`)
 * **server**: your V2Ray/Xray server domain running behind Cloudflare CDN (e.g., `www.yourdomain.com`)
 * **cloudflare**: `true/false` (default is `false` if empty. If `true`, it will only check hosts using Cloudflare and ignore non-Cloudflare results.)
 
 Example:
 
 ```bash
-./bugscanner --host /sdcard/host.txt --server www.yourdomain.com --cloudflare true
+./bugscanner -host /sdcard/host.txt -result /sdcard/result.txt -server www.yourdomain.com -cloudflare true
 ```
 
 ## Xray-Core + Onering Usage
